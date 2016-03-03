@@ -162,3 +162,20 @@ p.info {
   font-size: 0.8em;
 }
 
+.rss-subscribe {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+.site-footer {
+  text-align: center;
+  color: gray;
+}
+
+.site-footer .octicon-mark-github {
+  color: gray;
+}
+
+.site-footer hr {
+  margin-bottom: 5px;
+}
