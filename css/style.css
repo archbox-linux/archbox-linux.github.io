@@ -168,14 +168,43 @@ p.info {
 }
 
 .site-footer {
-  text-align: center;
-  color: gray;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 20px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #767676;
+  border-top: 1px solid #eee;
+
+  height: 60px;
+  /*background-color: yellow;*/
 }
 
-.site-footer .octicon-mark-github {
-  color: gray;
+.site-footer-links {
+  margin: 0;
+  list-style: none;
 }
 
-.site-footer hr {
-  margin-bottom: 5px;
+.site-footer-links {
+    display: inline-block;
+/*    line-height: 16px*/;
+    height:  100%;
+    vertical-align: middle;
+}
+
+.site-footer .octicon-mark-github,
+.site-footer .footer-icon {
+    color: #ccc;
+    vertical-align: middle;
+    height: 24px;
+    padding-left: 10px;
+}
+
+.site-footer .octicon.octicon-mark-github {
+  fill: #898989;
+}
+
+a {
+  text-decoration: none;
 }
